@@ -42,6 +42,7 @@ _vehicle addItemCargoGlobal ["ACE_personalAidKit", 5];
 _vehicle addItemCargoGlobal ["ACE_morphine", 30];
 _vehicle addItemCargoGlobal ["ACE_epinephrine", 35];
 _vehicle addItemCargoGlobal ["ACE_atropine", 10];
+_vehicle addEventHandler ["GetIn", {_this execVM "scripts\pilot_restriction.sqf"}];
 	
 if((_cfgInfo select 4) isEqualTo "Autonomous") then {
 	createVehicleCrew _vehicle;
