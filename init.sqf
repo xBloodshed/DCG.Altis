@@ -23,6 +23,7 @@ __________________________________________________________________*/
 enableSaving [false, false];
 enableSentences false;
 enableRadio false;
+enableEngineArtillery false;
 call SEN_fnc_setParams;
 [] execVM "scripts\zlt_fieldrepair.sqf";
 
