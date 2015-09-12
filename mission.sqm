@@ -3536,7 +3536,7 @@ class Mission
 			vehicle="B_CargoNet_01_ammo_F";
 			skill=0.60000002;
 			text="SEN_arsenal";
-			init="this enableSimulation true;this setdir 317.157;this setposATL [15207.107422,17337.818359,0.585646];this setVectorUp [0,0,1];this allowDamage false; clearItemCargo this; clearWeaponCargo this; clearMagazineCargo this; 0 = [""AmmoboxInit"",[this,true,{true}]] spawn BIS_fnc_arsenal;";
+			init="this enableSimulation true;this setdir 317.157;this setposATL [15207.107422,17337.818359,0.585646];this setVectorUp [0,0,1];this allowDamage false; clearItemCargo this; clearWeaponCargo this; clearMagazineCargo this; 0 = [this] execVM ""custom_virtual_arsenal.sqf"";";
 		};
 		class Item198
 		{
