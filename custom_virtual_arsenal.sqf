@@ -742,11 +742,11 @@ switch (_unitrole) do {
 		"tf_rt1523g_rhs",
 		"tf_rt1523g_sage"
 	];
-	_availableItems = [
+	_availableItems1 = [
 		"ItemcTab"
 	];
 	//Populate with predefined items and whatever is already in the crate
-	[_crate,((itemCargo _crate) + _availableItems)] call BIS_fnc_addVirtualItemCargo;
+	[_crate,((itemCargo _crate) + _availableItems + _availableItems1)] call BIS_fnc_addVirtualItemCargo;
 	[_crate,((backpackCargo _crate) + _availableBackpacks)] call BIS_fnc_addVirtualBackpackCargo;
 	[_crate,((weaponCargo _crate) + _availableWeapons)] call BIS_fnc_addVirtualWeaponCargo;
   };

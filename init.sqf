@@ -24,6 +24,9 @@ enableSaving [false, false];
 enableSentences false;
 enableRadio false;
 enableEngineArtillery false;
+
+
+_igiload = execVM "scripts\IgiLoad\IgiLoadInit.sqf";
 call SEN_fnc_setParams;
 [] execVM "scripts\zlt_fieldrepair.sqf";
 
