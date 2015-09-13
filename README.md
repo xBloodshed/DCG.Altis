@@ -1,8 +1,13 @@
 # DCG.Altis | Changelog
 
+13 Sept 2015 : Iniyan
+---
+1. Custom virtual arsenal (CVA) script optimized. Need to choose weapons and individual items per class.
+2. Added folder class names for dev purposes. Delete it later. Contains all weapons & optics, mags, items (ACE3, RHS, vanilla) in the required format for CVA.
+3. Pilot restrictions imposed. Both the pilot classes (Heli & Jet) can fly both types. Other roles are kicked out.
+
 13 Sept 2015 : TandelK
 ---
-
 1. Added cTab to Officers 
 2. Added file called **Classnames.txt** containig all the classnames required for the mission
 3. Changed Helmets for every units to UCP 
@@ -32,7 +37,6 @@ this addeventhandler ["respawn","_this execVM 'scripts\ITGC_Loadouts\lo_xxx.sqf'
 
 12 Sept 2015: Iniyan
 ---
-
 1.	Added custom loadouts based on roles. Loadouts are at folder **_"scripts\ITGC_Loadouts"_**. I've added some loadouts on my preference. Review them please.
 	Some loadouts like the engineer and JTAC are not complete. I based the loadouts on our current count of players and situations we face in daily missions.
 	Some loadouts like the AR and Ammo bearer are very heavy. Edit them as you see fit.
