@@ -9,3 +9,12 @@
 	Edited file "fnc\fn_spawnVVS.sqf". Pls review the numbers and edit them as fit.
 
 3.	Removed "Take Radio" option available at the arsenal.
+
+13 Sept 2015 : TandelK
+-------------
+
+1.  Added cTab to Officers 
+
+2. Added file called Classnames.txt containig all the classnames required for the mission
+
+3. Changed Helmets for every units to UCP 

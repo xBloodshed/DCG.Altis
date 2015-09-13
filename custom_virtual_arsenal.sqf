@@ -553,9 +553,7 @@ _availableItems = [
 		"ItemGPS",
 		"ItemMap",
 		"ItemRadio",
-		"Laserdesignator",
-		"Laserdesignator_02",
-		"Laserdesignator_03",
+		"Laserdesignator", //removed 2 Laser Designator belonging to OPFOR and Independent factions
 		"Medikit",
 		"MineDetector",
 		"muzzle_snds_338_black",
@@ -744,8 +742,11 @@ switch (_unitrole) do {
 		"tf_rt1523g_rhs",
 		"tf_rt1523g_sage"
 	];
-
+	_availableItems = [
+		"ItemcTab"
+	];
 	//Populate with predefined items and whatever is already in the crate
+	[_crate,((itemCargo _crate) + _availableItems)] call BIS_fnc_addVirtualItemCargo;
 	[_crate,((backpackCargo _crate) + _availableBackpacks)] call BIS_fnc_addVirtualBackpackCargo;
 	[_crate,((weaponCargo _crate) + _availableWeapons)] call BIS_fnc_addVirtualWeaponCargo;
   };
@@ -816,7 +817,7 @@ switch (_unitrole) do {
 	[_crate,((weaponCargo _crate) + _availableWeapons)] call BIS_fnc_addVirtualWeaponCargo;
   };
   
-  //SQUAD LEADERrhsusf_army_ucp_marksman
+  //SQUAD LEADER rhsusf_army_ucp_squadleader
   case "rhsusf_army_ucp_squadleader":
   {
 	_availableWeapons = [
@@ -833,7 +834,10 @@ switch (_unitrole) do {
 		"B_TacticalPack_blk",
 		"B_TacticalPack_mcamo"
 	];
-	
+	_availableItems = [
+		"ItemcTabHCam"
+	];
+	[_crate,((itemCargo _crate) + _availableItems)] call BIS_fnc_addVirtualItemCargo;
 	[_crate,((backpackCargo _crate) + _availableBackpacks)] call BIS_fnc_addVirtualBackpackCargo;
 	[_crate,((weaponCargo _crate) + _availableWeapons)] call BIS_fnc_addVirtualWeaponCargo;
   };
@@ -855,6 +859,9 @@ switch (_unitrole) do {
 		"B_TacticalPack_blk",
 		"B_TacticalPack_mcamo"
 	];
+	
+	
+	
 	
 	[_crate,((backpackCargo _crate) + _availableBackpacks)] call BIS_fnc_addVirtualBackpackCargo;
 	[_crate,((weaponCargo _crate) + _availableWeapons)] call BIS_fnc_addVirtualWeaponCargo;

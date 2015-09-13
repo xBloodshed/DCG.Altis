@@ -27,7 +27,7 @@ for "_i" from 1 to 44 do {_unit addItemToBackpack "ACE_elasticBandage";};
 for "_i" from 1 to 10 do {_unit addItemToBackpack "SmokeShell";};
 _unit addItemToBackpack "SmokeShellBlue";
 for "_i" from 1 to 7 do {_unit addItemToBackpack "rhs_mag_30Rnd_556x45_Mk262_Stanag";};
-_unit addHeadgear "H_HelmetSpecB";
+_unit addHeadgear "rhsusf_ach_helmet_ESS_ucp";
 _unit addGoggles "rhs_googles_clear";
 
 comment "Add weapons";

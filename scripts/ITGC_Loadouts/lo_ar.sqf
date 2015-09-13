@@ -19,7 +19,7 @@ for "_i" from 1 to 3 do {_unit addItemToBackpack "HandGrenade";};
 for "_i" from 1 to 5 do {_unit addItemToBackpack "SmokeShell";};
 _unit addItemToBackpack "SmokeShellBlue";
 for "_i" from 1 to 4 do {_unit addItemToBackpack "rhsusf_100Rnd_762x51_m993";};
-_unit addHeadgear "H_HelmetSpecB_paint2";
+_unit addHeadgear "rhsusf_ach_helmet_ESS_ucp";
 _unit addGoggles "rhs_googles_clear";
 
 comment "Add weapons";
