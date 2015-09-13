@@ -25,10 +25,9 @@ enableSentences false;
 enableRadio false;
 enableEngineArtillery false;
 
-
-_igiload = execVM "scripts\IgiLoad\IgiLoadInit.sqf";
 call SEN_fnc_setParams;
 [] execVM "scripts\zlt_fieldrepair.sqf";
+0 = execVM "scripts\IgiLoad\IgiLoadInit.sqf";
 
 if (isServer || (!isServer && !hasInterface)) then {
 	waitUntil {sleep 0.1; SEN_complete isEqualTo 1};
