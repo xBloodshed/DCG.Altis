@@ -1,17 +1,18 @@
 if (isDedicated) exitWith {};
+private ["_veh"];
 while {(true)} do {
-	if ((player == driver vehicle player) AND vehicle player isKindOf "Air") then {
+	waitUntil {vehicle player != player};
+    _veh = vehicle player;
+	_veh enableCopilot false;
+	if ((player == driver _veh) AND _veh isKindOf "Air") then {
 		if (((typeOf player) == "rhsusf_army_ucp_helipilot") || ((typeOf player) == "rhsusf_airforce_pilot")) then {
 		}
 		else
 		{
-			_fuel = fuel vehicle player;
-			vehicle player setFuel 0;
-			unAssignVehicle vehicle player;
-			player action ["getOut", vehicle player];
-			waitUntil {sleep 1; (fuel vehicle player) == 0};
-			vehicle player setFuel _fuel;
+			player action ["getOut", vehicle _veh];
+			waitUntil {vehicle player == player};
 			hint "Restricted Vehicle!";
+			if (isEngineOn _veh) then {_veh engineOn false};
 		};
 	};
 };
