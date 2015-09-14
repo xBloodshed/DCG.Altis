@@ -1,4 +1,11 @@
+waitUntil {!isNull player};
 _unit = _this select 0;
+removeallassigneditems _unit;
+removeallcontainers _unit;
+removeallweapons _unit;
+removebackpack _unit;
+removeuniform _unit;
+removevest _unit;
 
 comment "Add containers";
 _unit forceAddUniform "U_B_PilotCoveralls";
@@ -31,3 +38,5 @@ _unit linkItem "ACE_Altimeter";
 _unit linkItem "tf_anprc152_1";
 _unit linkItem "ItemGPS";
 _unit linkItem "NVGoggles_OPFOR";
+
+if(true) exitWith{};

@@ -1,18 +1,26 @@
-_veh = _this select 0;
-_pos = _this select 1;
-_obj = _this select 2;
+// by Xeno
+// Modified by [KH]Foxy
 
-if (_pos == "driver" AND _obj == player AND _veh isKindOf "Air") then {
-	if (((typeOf _obj) == "rhsusf_army_ucp_helipilot") || ((typeOf _obj) == "rhsusf_airforce_pilot")) then {
-	}
-	else
-	{
-		_fuel = fuel _veh;
-		_veh setFuel 0;
-		unAssignVehicle _obj;
-		_obj action ["getOut", _veh];
-		waitUntil {sleep 1; (fuel _veh) == 0};
-		_veh setFuel _fuel;
-		hint "Only pilots are authorized to fly!!!";
+private ["_vehicle","_position","_enterer","_enterer_class"];
+
+_vehicle = _this select 0;
+_position = _this select 1;
+_enterer = _this select 2;
+_enterer_class = typeOf _enterer;
+
+if (_position == "driver") then {
+	if (_enterer_class != "B_Helipilot_F") then {
+		_vehicle vehicleChat "You are not authorised to fly this aircraft.";
+		if (_position == "driver") then {
+			driver _vehicle action["Eject",_vehicle];
+		} else {
+			gunner _vehicle action["Eject",_vehicle];
+		};
+		sleep 0.1;
+		if (isEngineOn _vehicle) then {
+			_vehicle EngineOn false;
+		};
+	} else {
+		_vehicle vehicleChat format ["Welcome aboard %1.", name _enterer];		
 	};
 };
