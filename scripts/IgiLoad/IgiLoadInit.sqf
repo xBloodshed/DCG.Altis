@@ -10,7 +10,7 @@ IL_Veh_Array = [];
 cutText ["Logistics department under construction. Please wait...","PLAIN",2];
 sleep (random 30);
 
-cutText [Format ["Logistics Dept. is operational],"PLAIN",2];
+cutText [Format ["Player: %1", Player],"PLAIN",2];
 
 _null = [Player] execVM "scripts\IgiLoad\IgiLoad.sqf";
 waitUntil {scriptDone _null};
