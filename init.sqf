@@ -24,6 +24,7 @@ enableSaving [false, false];
 enableSentences false;
 enableRadio false;
 enableEngineArtillery false;
+tf_no_auto_long_range_radio = true;
 
 call SEN_fnc_setParams;
 [] execVM "scripts\zlt_fieldrepair.sqf";
