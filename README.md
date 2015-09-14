@@ -1,5 +1,11 @@
 # DCG.Altis | Changelog
 
+14 Sept 2015 : Iniyan
+---
+1. Fixed backpacks dropped while setting loadouts. Also fixed the loadout resetting when somebody joins/exits the server.
+2. Pilot restriction fixed.
+3. TFAR frequencies set to ITGC frequencies.
+
 13 Sept 2015 : Iniyan
 ---
 1. Custom virtual arsenal (CVA) script optimized. Need to choose weapons and individual items per class.
