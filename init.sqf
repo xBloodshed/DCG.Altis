@@ -33,3 +33,5 @@ if (isServer || (!isServer && !hasInterface)) then {
 	waitUntil {sleep 0.1; SEN_complete isEqualTo 1};
 	[] execVM "scripts\SEN_occupy.sqf";
 };
+
+[] execVM "scripts\pilot_restriction.sqf";
