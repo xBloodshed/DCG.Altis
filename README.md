@@ -4,7 +4,8 @@
 ---
 1. Fixed the TFAR long radio issue. This should fix the backpacks issue.
 2. Support for RHS chinooks and MV22 added to igiLoad.
-3. Changed mission file version to v1.10
+3. TFAR default frequencies set to 123.3, 100.1, 101.1 on channels 1,2&3. LR frequencies 50, 60 on channels 1&2.
+4. Changed mission file version to v1.11
 
 14 Sept 2015 : Iniyan
 ---
