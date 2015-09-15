@@ -1,4 +1,5 @@
 //Init stuff
+if (isDedicated) exitWith {};
 _crate = _this select 0;
 _unitrole = typeof player;
 

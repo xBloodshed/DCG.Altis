@@ -37,7 +37,7 @@ _unit addGoggles "rhs_googles_clear";
 
 comment "Add weapons";
 _unit addWeapon "rhs_weap_m14ebrri";
-_unit addPrimaryWeaponItem "rhsusf_acc_LEUPOLDMK4_2";
+_unit addPrimaryWeaponItem "optic_DMS";
 _unit addPrimaryWeaponItem "rhsusf_acc_harris_bipod";
 _unit addWeapon "hgun_P07_F";
 _unit addHandgunItem "muzzle_snds_L";
