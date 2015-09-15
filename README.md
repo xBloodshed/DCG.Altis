@@ -1,5 +1,10 @@
 # DCG.Altis | Changelog
 
+15 Sept 2015 : xBloodshed
+---
+1. fixed Arsenal cleanup bug
+2. removed unnecessary decoratives
+
 15 Sept 2015 : Iniyan
 ---
 1. Fixed the TFAR long radio issue. This should fix the backpacks issue.
