@@ -37,3 +37,4 @@ if (isServer || (!isServer && !hasInterface)) then {
 
 [] execVM "scripts\pilot_restriction.sqf";
 SEN_Arsenal addaction ["Arsenal", "custom_virtual_arsenal.sqf"];
+[] execVM "scripts\ITGC_Loadouts\Loadouts.sqf";
