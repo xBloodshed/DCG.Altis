@@ -27,13 +27,13 @@
 "muzzle_snds_338_sand",
 "muzzle_snds_93mmg",
 "muzzle_snds_93mmg_tan",
-"muzzle_snds_acp",
-"muzzle_snds_B",
-"muzzle_snds_H",
-"muzzle_snds_H_MG",
+"muzzle_snds_acp",	//.45ACP
+"muzzle_snds_B",	//7.62mm
+"muzzle_snds_H",	//6.5mm
+"muzzle_snds_H_MG",	//LMG6.5mm
 "muzzle_snds_H_SW",
-"muzzle_snds_L",
-"muzzle_snds_M",
+"muzzle_snds_L",	//9mm
+"muzzle_snds_M",	//5.56mm
 "NVGoggles",
 "NVGoggles_INDEP",
 "NVGoggles_OPFOR",
