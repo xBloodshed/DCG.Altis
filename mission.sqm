@@ -103,7 +103,7 @@ class Mission
 	randomSeed=13763187;
 	class Intel
 	{
-		briefingName="DCG for ITGC v1.10";
+		briefingName="DCG for ITGC v1.11";
 		resistanceWest=0;
 		startWeather=0.29999998;
 		startWind=0.099999994;
@@ -145,7 +145,7 @@ class Mission
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_sq_ldr.sqf"";";
 					description="Platoon Commander";
 					syncId=0;
-					synchronizations[]={1};
+					synchronizations[]={39};
 				};
 				class Item1
 				{
@@ -161,6 +161,8 @@ class Mission
 					text="plt_sgt";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_jtac.sqf"";";
 					description="Platoon JTAC";
+					syncId=1;
+					synchronizations[]={39};
 				};
 				class Item2
 				{
@@ -176,6 +178,8 @@ class Mission
 					text="plt_med";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_medic.sqf"";";
 					description="Platoon Medic";
+					syncId=2;
+					synchronizations[]={39};
 				};
 				class Item3
 				{
@@ -191,6 +195,8 @@ class Mission
 					text="plt_eng";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_engineer.sqf"";";
 					description="Platoon Engineer";
+					syncId=3;
+					synchronizations[]={39};
 				};
 			};
 		};
@@ -215,6 +221,8 @@ class Mission
 					text="a_sl";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_sq_ldr.sqf"";";
 					description="Alpha Squad Leader";
+					syncId=4;
+					synchronizations[]={39};
 				};
 				class Item1
 				{
@@ -230,6 +238,8 @@ class Mission
 					text="a_eng";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_engineer.sqf"";";
 					description="Alpha Squad Engineer";
+					syncId=5;
+					synchronizations[]={39};
 				};
 			};
 		};
@@ -254,6 +264,8 @@ class Mission
 					text="a1_ftl";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_ftl.sqf"";";
 					description="Alpha 1 Fireteam Leader";
+					syncId=6;
+					synchronizations[]={39};
 				};
 				class Item1
 				{
@@ -269,6 +281,8 @@ class Mission
 					text="a1_ar";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_ar.sqf"";";
 					description="Alpha 1 Automatic Rifleman";
+					syncId=7;
+					synchronizations[]={39};
 				};
 				class Item2
 				{
@@ -284,6 +298,8 @@ class Mission
 					text="a1_mark";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_mark.sqf"";";
 					description="Alpha 1 Marksman";
+					syncId=8;
+					synchronizations[]={39};
 				};
 				class Item3
 				{
@@ -299,6 +315,8 @@ class Mission
 					text="a1_at";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_at.sqf"";";
 					description="Alpha 1 Anti-Tank Rifleman";
+					syncId=9;
+					synchronizations[]={39};
 				};
 				class Item4
 				{
@@ -314,6 +332,8 @@ class Mission
 					text="a1_med";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_medic.sqf"";";
 					description="Alpha 1 Corpsman";
+					syncId=10;
+					synchronizations[]={39};
 				};
 				class Item5
 				{
@@ -328,6 +348,8 @@ class Mission
 					text="a1_rm";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_riflemanlat.sqf"";";
 					description="Alpha 1 Rifleman / LAT";
+					syncId=11;
+					synchronizations[]={39};
 				};
 			};
 		};
@@ -370,6 +392,8 @@ class Mission
 					text="a2_ftl";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_ftl.sqf"";";
 					description="Alpha 2 Fireteam Leader";
+					syncId=12;
+					synchronizations[]={39};
 				};
 				class Item1
 				{
@@ -385,6 +409,8 @@ class Mission
 					text="a2_ar";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_ar.sqf"";";
 					description="Alpha 2 Automatic Rifleman";
+					syncId=13;
+					synchronizations[]={39};
 				};
 				class Item2
 				{
@@ -400,6 +426,8 @@ class Mission
 					text="a2_mark";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_mark.sqf"";";
 					description="Alpha 2 Marksman";
+					syncId=14;
+					synchronizations[]={39};
 				};
 				class Item3
 				{
@@ -415,6 +443,8 @@ class Mission
 					text="a2_at";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_at.sqf"";";
 					description="Alpha 2 Anti-Tank Rifleman";
+					syncId=15;
+					synchronizations[]={39};
 				};
 				class Item4
 				{
@@ -430,6 +460,8 @@ class Mission
 					text="a2_med";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_medic.sqf"";";
 					description="Alpha 2 Corpsman";
+					syncId=16;
+					synchronizations[]={39};
 				};
 				class Item5
 				{
@@ -444,6 +476,8 @@ class Mission
 					text="a2_rm";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_riflemanlat.sqf"";";
 					description="Alpha 2 Rifleman / LAT";
+					syncId=17;
+					synchronizations[]={39};
 				};
 			};
 		};
@@ -468,6 +502,8 @@ class Mission
 					text="b_sl";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_sq_ldr.sqf"";";
 					description="Bravo Squad Leader";
+					syncId=18;
+					synchronizations[]={39};
 				};
 				class Item1
 				{
@@ -483,6 +519,8 @@ class Mission
 					text="b_eng";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_engineer.sqf"";";
 					description="Bravo Squad Engineer";
+					syncId=19;
+					synchronizations[]={39};
 				};
 			};
 		};
@@ -507,6 +545,8 @@ class Mission
 					text="b1_ftl";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_ftl.sqf"";";
 					description="Bravo 1 Fireteam Leader";
+					syncId=20;
+					synchronizations[]={39};
 				};
 				class Item1
 				{
@@ -522,6 +562,8 @@ class Mission
 					text="b1_ar";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_ar.sqf"";";
 					description="Bravo 1 Automatic Rifleman";
+					syncId=21;
+					synchronizations[]={39};
 				};
 				class Item2
 				{
@@ -537,6 +579,8 @@ class Mission
 					text="b1_mark";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_mark.sqf"";";
 					description="Bravo 1 Marksman";
+					syncId=22;
+					synchronizations[]={39};
 				};
 				class Item3
 				{
@@ -552,6 +596,8 @@ class Mission
 					text="b1_at";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_at.sqf"";";
 					description="Bravo 1 Anti-Tank Rifleman";
+					syncId=23;
+					synchronizations[]={39};
 				};
 				class Item4
 				{
@@ -567,6 +613,8 @@ class Mission
 					text="b1_med";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_medic.sqf"";";
 					description="Bravo 1 Corpsman";
+					syncId=24;
+					synchronizations[]={39};
 				};
 				class Item5
 				{
@@ -581,6 +629,8 @@ class Mission
 					text="b1_rm";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_riflemanlat.sqf"";";
 					description="Bravo 1 Rifleman / LAT";
+					syncId=25;
+					synchronizations[]={39};
 				};
 			};
 		};
@@ -605,6 +655,8 @@ class Mission
 					text="b2_ftl";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_ftl.sqf"";";
 					description="Bravo 2 Fireteam Leader";
+					syncId=26;
+					synchronizations[]={39};
 				};
 				class Item1
 				{
@@ -620,6 +672,8 @@ class Mission
 					text="b2_ar";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_ar.sqf"";";
 					description="Bravo 2 Automatic Rifleman";
+					syncId=27;
+					synchronizations[]={39};
 				};
 				class Item2
 				{
@@ -635,6 +689,8 @@ class Mission
 					text="b2_mark";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_mark.sqf"";";
 					description="Bravo 2 Marksman";
+					syncId=28;
+					synchronizations[]={39};
 				};
 				class Item3
 				{
@@ -650,6 +706,8 @@ class Mission
 					text="b2_at";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_at.sqf"";";
 					description="Bravo 2 Anti-Tank Rifleman";
+					syncId=29;
+					synchronizations[]={39};
 				};
 				class Item4
 				{
@@ -665,6 +723,8 @@ class Mission
 					text="b2_med";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_medic.sqf"";";
 					description="Bravo 2 Corpsman";
+					syncId=30;
+					synchronizations[]={39};
 				};
 				class Item5
 				{
@@ -679,6 +739,8 @@ class Mission
 					text="b2_rm";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_riflemanlat.sqf"";";
 					description="Bravo 2 Rifleman / LAT";
+					syncId=31;
+					synchronizations[]={39};
 				};
 			};
 		};
@@ -703,6 +765,8 @@ class Mission
 					text="rh1_co";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_crewman.sqf"";";
 					description="Rhino 1 Commander";
+					syncId=32;
+					synchronizations[]={39};
 				};
 				class Item1
 				{
@@ -718,6 +782,8 @@ class Mission
 					text="rh1_driver";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_crewman.sqf"";";
 					description="Rhino 1 Driver";
+					syncId=33;
+					synchronizations[]={39};
 				};
 				class Item2
 				{
@@ -733,6 +799,8 @@ class Mission
 					text="rh1_gunner";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_crewman.sqf"";";
 					description="Rhino 1 Gunner";
+					syncId=34;
+					synchronizations[]={39};
 				};
 			};
 		};
@@ -757,6 +825,8 @@ class Mission
 					text="r_1";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_helipilot.sqf"";";
 					description="Reaper 1 Pilot";
+					syncId=35;
+					synchronizations[]={39};
 				};
 				class Item1
 				{
@@ -772,6 +842,8 @@ class Mission
 					text="r_2";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_helipilot.sqf"";";
 					description="Reaper 2 Pilot";
+					syncId=36;
+					synchronizations[]={39};
 				};
 				class Item2
 				{
@@ -787,6 +859,8 @@ class Mission
 					text="r_3";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_pilot.sqf"";";
 					description="Colt 1 Pilot";
+					syncId=37;
+					synchronizations[]={39};
 				};
 				class Item3
 				{
@@ -802,6 +876,8 @@ class Mission
 					text="r_4";
 					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_pilot.sqf"";";
 					description="Colt 2 Pilot";
+					syncId=38;
+					synchronizations[]={39};
 				};
 			};
 		};
@@ -1512,13 +1588,13 @@ class Mission
 				items=2;
 				class Item0
 				{
-					position[]={15198.138,17.919064,17314.881};
+					position[]={15197.264,17.916647,17315.691};
 					class args
 					{
 						items=7;
 						class Item0
 						{
-							value="1";
+							value="0";
 							parentCls="tfar_ModuleTaskForceRadio";
 							typeName="Units";
 						};
@@ -1565,8 +1641,8 @@ class Mission
 					leader=1;
 					lock="UNLOCKED";
 					skill=0.60000002;
-					syncId=1;
-					synchronizations[]={2,0};
+					syncId=39;
+					synchronizations[]={3,1,40,0,2,18,19,22,23,21,20,24,25,28,29,27,26,30,31,35,36,37,38,4,5,11,10,6,7,9,8,17,16,12,13,15,14,34,32,33};
 				};
 				class Item1
 				{
@@ -1622,8 +1698,8 @@ class Mission
 					vehicle="tfar_ModuleTaskForceRadioEnforceUsage";
 					lock="UNLOCKED";
 					skill=0.60000002;
-					syncId=2;
-					synchronizations[]={1};
+					syncId=40;
+					synchronizations[]={39};
 				};
 			};
 		};
