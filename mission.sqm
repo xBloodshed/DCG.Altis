@@ -1699,7 +1699,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=172;
+		items=174;
 		class Item0
 		{
 			position[]={15348.36,2.3880401,17329.318};
@@ -3554,6 +3554,24 @@ class Mission
 			vehicle="Land_Camping_Light_F";
 			skill=0.60000002;
 			init="this setVariable [""SEN_noClean"", true];";
+		};
+		class Item172
+		{
+			position[]={15204.69,17.945843,17321.234};
+			id=223;
+			side="EMPTY";
+			vehicle="Land_Camping_Light_F";
+			skill=0.60000002;
+			init="this allowDamage false;this setVariable [""SEN_noClean"", true];";
+		};
+		class Item173
+		{
+			position[]={15183.325,17.891563,17318.037};
+			id=224;
+			side="EMPTY";
+			vehicle="Land_Camping_Light_F";
+			skill=0.60000002;
+			init="this allowDamage false;this setVariable [""SEN_noClean"", true];";
 		};
 	};
 	class Markers
