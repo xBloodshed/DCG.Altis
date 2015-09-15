@@ -23,10 +23,18 @@ __________________________________________________________________*/
 enableSaving [false, false];
 enableSentences false;
 enableRadio false;
+enableEngineArtillery false;
+tf_no_auto_long_range_radio = true;
+
 call SEN_fnc_setParams;
 [] execVM "scripts\zlt_fieldrepair.sqf";
+0 = execVM "scripts\IgiLoad\IgiLoadInit.sqf";
 
 if (isServer || (!isServer && !hasInterface)) then {
 	waitUntil {sleep 0.1; SEN_complete isEqualTo 1};
 	[] execVM "scripts\SEN_occupy.sqf";
 };
+
+[] execVM "scripts\pilot_restriction.sqf";
+SEN_Arsenal addaction ["Arsenal", "custom_virtual_arsenal.sqf"];
+[] execVM "scripts\ITGC_Loadouts\Loadouts.sqf";

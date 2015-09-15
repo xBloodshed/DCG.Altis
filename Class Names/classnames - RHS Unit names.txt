@@ -1,0 +1,17 @@
+Units
+Officer - rhsusf_army_ucp_officer
+Medic - rhsusf_army_ucp_medic
+JTAC- rhsusf_army_ucp_jfo
+Engineer - rhsusf_army_ucp_engineer
+Squad Leader- rhsusf_army_ucp_squadleader
+Marksman - rhsusf_army_ucp_marksman
+AT Specialist Javeline - rhsusf_army_ucp_javelin
+Auto Riflemen - rhsusf_army_ucp_autorifleman
+Team Leader - rhsusf_army_ucp_teamleader 
+Riflemen Light - rhsusf_army_ucp_riflemanl
+Crewman [Combat]- rhsusf_army_ucp_combatcrewman
+Crew - rhsusf_army_ucp_crewman
+Pilot - rhsusf_airforce_pilot
+Helicopter Pilot - rhsusf_army_ucp_helipilot
+
+Weapons for US Army 

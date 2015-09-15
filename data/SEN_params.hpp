@@ -122,7 +122,7 @@ class param17 {
    title = "Max Revive Time (minutes)";
    values[] = {60,300,600,900};
    texts[] = {"1","5","10","15"};
-   default = 900;
+   default = 300;
    SEN_paramCode = "ace_medical_maxReviveTime = %1;";
 };
 class param18 {

@@ -9,3 +9,21 @@
 	Edited file "fnc\fn_spawnVVS.sqf". Pls review the numbers and edit them as fit.
 
 3.	Removed "Take Radio" option available at the arsenal.
+
+13 Sept 2015 : TandelK
+-------------
+
+1.  Added cTab to Officers 
+
+2. Added file called Classnames.txt containig all the classnames required for the mission
+
+3. Changed Helmets for every units to UCP 
+
+13 Sept 2015 : Iniyan
+-------------
+
+1.	Custom virtual arsenal (CVA) script optimized. Need to choose weapons and individual items per class.
+
+2.	Added folder class names for dev purposes. Delete it later. Contains all weapons & optics, mags, items (ACE3, RHS, vanilla) in the required format for CVA.
+
+3.	Pilot restrictions imposed. Both the pilot classes (Heli & Jet) can fly both types. Other roles are kicked out.
