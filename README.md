@@ -1,5 +1,11 @@
 # DCG.Altis | Changelog
 
+15 Sept 2015 : Iniyan
+---
+1. Fixed the TFAR long radio issue. This should fix the backpacks issue.
+2. Support for RHS chinooks and MV22 added to igiLoad.
+3. Changed mission file version to v1.10
+
 14 Sept 2015 : Iniyan
 ---
 1. Fixed backpacks dropped while setting loadouts. Also fixed the loadout resetting when somebody joins/exits the server.
