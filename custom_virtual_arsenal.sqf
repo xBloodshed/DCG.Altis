@@ -742,7 +742,9 @@ switch (_unitrole) do {
 		"tf_rt1523g_fabric",
 		"tf_rt1523g_green",
 		"tf_rt1523g_rhs",
-		"tf_rt1523g_sage"
+		"tf_rt1523g_sage",
+		"B_Kitbag_cbr",
+		"rhsusf_assault_eagleaiii_ucp"
 	];
 	_availableItems1 = [
 		"ItemcTab"
@@ -881,6 +883,8 @@ switch (_unitrole) do {
 		"B_Kitbag_mcamo",
 		"B_TacticalPack_blk",
 		"B_TacticalPack_mcamo"
+		"B_Kitbag_cbr",
+		"rhsusf_assault_eagleaiii_ucp"
 	];
 	
 	[_crate,((backpackCargo _crate) + _availableBackpacks)] call BIS_fnc_addVirtualBackpackCargo;
@@ -1014,7 +1018,9 @@ switch (_unitrole) do {
 		"B_Kitbag_rgr",
 		"B_Kitbag_mcamo",
 		"B_TacticalPack_blk",
-		"B_TacticalPack_mcamo"
+		"B_TacticalPack_mcamo",
+		"B_Kitbag_cbr",
+		"rhsusf_assault_eagleaiii_ucp"
 	];
 	
 	[_crate,((backpackCargo _crate) + _availableBackpacks)] call BIS_fnc_addVirtualBackpackCargo;
@@ -1148,7 +1154,9 @@ switch (_unitrole) do {
 		"B_Kitbag_rgr",
 		"B_Kitbag_mcamo",
 		"B_TacticalPack_blk",
-		"B_TacticalPack_mcamo"
+		"B_TacticalPack_mcamo",
+		"B_Kitbag_cbr",
+		"rhsusf_assault_eagleaiii_ucp"
 	];
 	
 	[_crate,((backpackCargo _crate) + _availableBackpacks)] call BIS_fnc_addVirtualBackpackCargo;
@@ -1304,7 +1312,9 @@ switch (_unitrole) do {
 		"B_Kitbag_rgr",
 		"B_Kitbag_mcamo",
 		"B_TacticalPack_blk",
-		"B_TacticalPack_mcamo"
+		"B_TacticalPack_mcamo",
+		"B_Kitbag_cbr",
+		"rhsusf_assault_eagleaiii_ucp"
 	];
 	_availableItems1 = [
 		"ItemcTabHCam"
@@ -1340,7 +1350,9 @@ switch (_unitrole) do {
 		"B_Kitbag_rgr",
 		"B_Kitbag_mcamo",
 		"B_TacticalPack_blk",
-		"B_TacticalPack_mcamo"
+		"B_TacticalPack_mcamo",
+		"B_Kitbag_cbr",
+		"rhsusf_assault_eagleaiii_ucp"
 	];
 	
 	_availableItems1 = [
@@ -1492,7 +1504,9 @@ switch (_unitrole) do {
 		"B_Kitbag_rgr",
 		"B_Kitbag_mcamo",
 		"B_TacticalPack_blk",
-		"B_TacticalPack_mcamo"
+		"B_TacticalPack_mcamo",
+		"B_Kitbag_cbr",
+		"rhsusf_assault_eagleaiii_ucp"
 	];
 	
 	[_crate,((backpackCargo _crate) + _availableBackpacks)] call BIS_fnc_addVirtualBackpackCargo;
@@ -1522,7 +1536,9 @@ switch (_unitrole) do {
 		"B_Kitbag_rgr",
 		"B_Kitbag_mcamo",
 		"B_TacticalPack_blk",
-		"B_TacticalPack_mcamo"
+		"B_TacticalPack_mcamo",
+		"B_Kitbag_cbr",
+		"rhsusf_assault_eagleaiii_ucp"
 	];
 	
 	[_crate,((backpackCargo _crate) + _availableBackpacks)] call BIS_fnc_addVirtualBackpackCargo;
@@ -1678,7 +1694,9 @@ switch (_unitrole) do {
 		"B_Kitbag_rgr",
 		"B_Kitbag_mcamo",
 		"B_TacticalPack_blk",
-		"B_TacticalPack_mcamo"
+		"B_TacticalPack_mcamo",
+		"B_Kitbag_cbr",
+		"rhsusf_assault_eagleaiii_ucp"
 	];
 	
 	[_crate,((backpackCargo _crate) + _availableBackpacks)] call BIS_fnc_addVirtualBackpackCargo;
@@ -1812,7 +1830,9 @@ switch (_unitrole) do {
 		"B_Kitbag_rgr",
 		"B_Kitbag_mcamo",
 		"B_TacticalPack_blk",
-		"B_TacticalPack_mcamo"
+		"B_TacticalPack_mcamo",
+		"B_Kitbag_cbr",
+		"rhsusf_assault_eagleaiii_ucp"
 	];
 	
 	[_crate,((backpackCargo _crate) + _availableBackpacks)] call BIS_fnc_addVirtualBackpackCargo;
@@ -1946,7 +1966,9 @@ switch (_unitrole) do {
 		"B_Kitbag_rgr",
 		"B_Kitbag_mcamo",
 		"B_TacticalPack_blk",
-		"B_TacticalPack_mcamo"
+		"B_TacticalPack_mcamo",
+		"B_Kitbag_cbr",
+		"rhsusf_assault_eagleaiii_ucp"
 	];
 	
 	[_crate,((backpackCargo _crate) + _availableBackpacks)] call BIS_fnc_addVirtualBackpackCargo;
@@ -2080,7 +2102,9 @@ switch (_unitrole) do {
 		"B_Kitbag_rgr",
 		"B_Kitbag_mcamo",
 		"B_TacticalPack_blk",
-		"B_TacticalPack_mcamo"
+		"B_TacticalPack_mcamo",
+		"B_Kitbag_cbr",
+		"rhsusf_assault_eagleaiii_ucp"
 	];
 	
 	[_crate,((backpackCargo _crate) + _availableBackpacks)] call BIS_fnc_addVirtualBackpackCargo;
@@ -2102,7 +2126,9 @@ switch (_unitrole) do {
 		"B_Kitbag_rgr",
 		"B_Kitbag_mcamo",
 		"B_TacticalPack_blk",
-		"B_TacticalPack_mcamo"
+		"B_TacticalPack_mcamo",
+		"B_Kitbag_cbr",
+		"rhsusf_assault_eagleaiii_ucp"
 	];
 	
 	[_crate,((backpackCargo _crate) + _availableBackpacks)] call BIS_fnc_addVirtualBackpackCargo;
@@ -2236,7 +2262,9 @@ switch (_unitrole) do {
 		"B_Kitbag_rgr",
 		"B_Kitbag_mcamo",
 		"B_TacticalPack_blk",
-		"B_TacticalPack_mcamo"
+		"B_TacticalPack_mcamo",
+		"B_Kitbag_cbr",
+		"rhsusf_assault_eagleaiii_ucp"
 	];
 	
 	[_crate,((backpackCargo _crate) + _availableBackpacks)] call BIS_fnc_addVirtualBackpackCargo;
