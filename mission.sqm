@@ -135,7 +135,6 @@ class Mission
 					rank="MAJOR";
 					skill=0.60000002;
 					text="plt_co";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_sq_ldr.sqf"";";
 					description="Platoon Commander";
 					syncId=0;
 					synchronizations[]={39};
@@ -152,7 +151,6 @@ class Mission
 					rank="CAPTAIN";
 					skill=0.60000002;
 					text="plt_sgt";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_jtac.sqf"";";
 					description="Platoon JTAC";
 					syncId=1;
 					synchronizations[]={39};
@@ -169,7 +167,6 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="plt_med";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_medic.sqf"";";
 					description="Platoon Medic";
 					syncId=2;
 					synchronizations[]={39};
@@ -186,7 +183,6 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="plt_eng";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_engineer.sqf"";";
 					description="Platoon Engineer";
 					syncId=3;
 					synchronizations[]={39};
@@ -206,13 +202,11 @@ class Mission
 					special="NONE";
 					id=4;
 					side="WEST";
-					vehicle="rhsusf_army_ucp_squadleader";
 					player="PLAY CDG";
 					leader=1;
 					rank="CAPTAIN";
 					skill=0.60000002;
 					text="a_sl";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_sq_ldr.sqf"";";
 					description="Alpha Squad Leader";
 					syncId=4;
 					synchronizations[]={39};
@@ -229,7 +223,6 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="a_eng";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_engineer.sqf"";";
 					description="Alpha Squad Engineer";
 					syncId=5;
 					synchronizations[]={39};
@@ -255,7 +248,6 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="a1_ftl";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_ftl.sqf"";";
 					description="Alpha 1 Fireteam Leader";
 					syncId=6;
 					synchronizations[]={39};
@@ -272,7 +264,6 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="a1_ar";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_ar.sqf"";";
 					description="Alpha 1 Automatic Rifleman";
 					syncId=7;
 					synchronizations[]={39};
@@ -289,7 +280,6 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="a1_mark";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_mark.sqf"";";
 					description="Alpha 1 Marksman";
 					syncId=8;
 					synchronizations[]={39};
@@ -306,7 +296,6 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="a1_at";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_at.sqf"";";
 					description="Alpha 1 Anti-Tank Rifleman";
 					syncId=9;
 					synchronizations[]={39};
@@ -323,7 +312,6 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="a1_med";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_medic.sqf"";";
 					description="Alpha 1 Corpsman";
 					syncId=10;
 					synchronizations[]={39};
@@ -339,7 +327,6 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="a1_rm";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_riflemanlat.sqf"";";
 					description="Alpha 1 Rifleman / LAT";
 					syncId=11;
 					synchronizations[]={39};
@@ -383,7 +370,6 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="a2_ftl";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_ftl.sqf"";";
 					description="Alpha 2 Fireteam Leader";
 					syncId=12;
 					synchronizations[]={39};
@@ -400,7 +386,6 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="a2_ar";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_ar.sqf"";";
 					description="Alpha 2 Automatic Rifleman";
 					syncId=13;
 					synchronizations[]={39};
@@ -417,7 +402,6 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="a2_mark";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_mark.sqf"";";
 					description="Alpha 2 Marksman";
 					syncId=14;
 					synchronizations[]={39};
@@ -434,7 +418,6 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="a2_at";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_at.sqf"";";
 					description="Alpha 2 Anti-Tank Rifleman";
 					syncId=15;
 					synchronizations[]={39};
@@ -451,7 +434,6 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="a2_med";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_medic.sqf"";";
 					description="Alpha 2 Corpsman";
 					syncId=16;
 					synchronizations[]={39};
@@ -467,7 +449,6 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="a2_rm";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_riflemanlat.sqf"";";
 					description="Alpha 2 Rifleman / LAT";
 					syncId=17;
 					synchronizations[]={39};
@@ -493,7 +474,6 @@ class Mission
 					rank="CAPTAIN";
 					skill=0.60000002;
 					text="b_sl";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_sq_ldr.sqf"";";
 					description="Bravo Squad Leader";
 					syncId=18;
 					synchronizations[]={39};
@@ -510,7 +490,6 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="b_eng";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_engineer.sqf"";";
 					description="Bravo Squad Engineer";
 					syncId=19;
 					synchronizations[]={39};
@@ -536,7 +515,6 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="b1_ftl";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_ftl.sqf"";";
 					description="Bravo 1 Fireteam Leader";
 					syncId=20;
 					synchronizations[]={39};
@@ -553,7 +531,6 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="b1_ar";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_ar.sqf"";";
 					description="Bravo 1 Automatic Rifleman";
 					syncId=21;
 					synchronizations[]={39};
@@ -570,7 +547,6 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="b1_mark";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_mark.sqf"";";
 					description="Bravo 1 Marksman";
 					syncId=22;
 					synchronizations[]={39};
@@ -587,7 +563,6 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="b1_at";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_at.sqf"";";
 					description="Bravo 1 Anti-Tank Rifleman";
 					syncId=23;
 					synchronizations[]={39};
@@ -604,7 +579,6 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="b1_med";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_medic.sqf"";";
 					description="Bravo 1 Corpsman";
 					syncId=24;
 					synchronizations[]={39};
@@ -620,7 +594,6 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="b1_rm";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_riflemanlat.sqf"";";
 					description="Bravo 1 Rifleman / LAT";
 					syncId=25;
 					synchronizations[]={39};
@@ -646,7 +619,6 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="b2_ftl";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_ftl.sqf"";";
 					description="Bravo 2 Fireteam Leader";
 					syncId=26;
 					synchronizations[]={39};
@@ -663,7 +635,6 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="b2_ar";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_ar.sqf"";";
 					description="Bravo 2 Automatic Rifleman";
 					syncId=27;
 					synchronizations[]={39};
@@ -680,7 +651,6 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="b2_mark";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_mark.sqf"";";
 					description="Bravo 2 Marksman";
 					syncId=28;
 					synchronizations[]={39};
@@ -697,7 +667,6 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="b2_at";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_at.sqf"";";
 					description="Bravo 2 Anti-Tank Rifleman";
 					syncId=29;
 					synchronizations[]={39};
@@ -714,7 +683,6 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="b2_med";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_medic.sqf"";";
 					description="Bravo 2 Corpsman";
 					syncId=30;
 					synchronizations[]={39};
@@ -730,7 +698,6 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="b2_rm";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_riflemanlat.sqf"";";
 					description="Bravo 2 Rifleman / LAT";
 					syncId=31;
 					synchronizations[]={39};
@@ -756,7 +723,6 @@ class Mission
 					rank="MAJOR";
 					skill=0.60000002;
 					text="rh1_co";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_crewman.sqf"";";
 					description="Rhino 1 Commander";
 					syncId=32;
 					synchronizations[]={39};
@@ -773,7 +739,6 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="rh1_driver";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_crewman.sqf"";";
 					description="Rhino 1 Driver";
 					syncId=33;
 					synchronizations[]={39};
@@ -790,7 +755,6 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="rh1_gunner";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_crewman.sqf"";";
 					description="Rhino 1 Gunner";
 					syncId=34;
 					synchronizations[]={39};
@@ -816,7 +780,6 @@ class Mission
 					rank="CAPTAIN";
 					skill=0.60000002;
 					text="r_1";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_helipilot.sqf"";";
 					description="Reaper 1 Pilot";
 					syncId=35;
 					synchronizations[]={39};
@@ -833,7 +796,6 @@ class Mission
 					rank="CAPTAIN";
 					skill=0.60000002;
 					text="r_2";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_helipilot.sqf"";";
 					description="Reaper 2 Pilot";
 					syncId=36;
 					synchronizations[]={39};
@@ -850,7 +812,6 @@ class Mission
 					rank="CAPTAIN";
 					skill=0.60000002;
 					text="r_3";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_pilot.sqf"";";
 					description="Colt 1 Pilot";
 					syncId=37;
 					synchronizations[]={39};
@@ -867,7 +828,6 @@ class Mission
 					rank="CAPTAIN";
 					skill=0.60000002;
 					text="r_4";
-					init="null = [this] execVM ""scripts\ITGC_Loadouts\lo_pilot.sqf"";";
 					description="Colt 2 Pilot";
 					syncId=38;
 					synchronizations[]={39};
