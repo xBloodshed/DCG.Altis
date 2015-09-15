@@ -884,7 +884,7 @@ switch (_unitrole) do {
 		"B_Kitbag_rgr",
 		"B_Kitbag_mcamo",
 		"B_TacticalPack_blk",
-		"B_TacticalPack_mcamo"
+		"B_TacticalPack_mcamo",
 		"B_Kitbag_cbr",
 		"rhsusf_assault_eagleaiii_ucp"
 	];
