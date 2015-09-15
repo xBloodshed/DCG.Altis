@@ -125,7 +125,7 @@ if (isnil "IL_Variables") then
 	IL_Supported_Vehicles_MOHAWK = ["I_Heli_Transport_02_F", "CH49_Mohawk_FG", "Marinir_CH49_Mohawk_FG"];
 	IL_Supported_Vehicles_CHINOOK = ["RHS_CH_47F","RHS_CH_47F_light","RHS_CH_47F_10","CH_147F", "CH_47F", "kyo_MH47E_HC", "kyo_MH47E_Ramp", "kyo_MH47E_base"];
 	IL_Supported_Vehicles_MH9 = ["B_Heli_Light_01_F", "B_mas_mar_Heli_Light_01_F","RHS_UH1Y_d","RHS_UH1Y_FFAR","RHS_UH1Y_UNARMED"];
-	IL_Supported_Vehicles_C130J = ["C130J_Cargo", "C130J","RHS_C130J"];
+	IL_Supported_Vehicles_C130J = ["C130J_Cargo", "C130J","RHS_C130J","MV22"];
 	IL_Supported_Vehicles_C17 = ["globemaster_c17_altus", "globemaster_c17_701", "globemaster_c17_703", "globemaster_c17_704", "globemaster_c17_705", "globemaster_c17_dover", "globemaster_c17_edwards", "globemaster_c17_Elmendorf", "globemaster_c17", "globemaster_c17_hickam", "globemaster_c17_IAF", "globemaster_c17_March", "globemaster_c17_mcchord", "globemaster_c17_McGuire", "globemaster_c17_Mississipi", "globemaster_c17_NATO", "globemaster_c17_natoPAPA", "globemaster_c17_Qatar", "globemaster_c17_RAAF", "globemaster_c17_ZZ172_RAF", "globemaster_c17_RCAF", "globemaster_c17_Stewart", "globemaster_c17_therock", "globemaster_c17_travis", "globemaster_c17_UAE", "globemaster_c17_wright_patt"];
 	
 	IL_Supported_Vehicles_All = IL_Supported_Vehicles_C130J + IL_Supported_Vehicles_C17 + IL_Supported_Vehicles_MH9 + IL_Supported_Vehicles_MOHAWK + IL_Supported_Vehicles_KAMAZ + IL_Supported_Vehicles_TEMPEST + IL_Supported_Vehicles_HEMTT + IL_Supported_Vehicles_VAN + IL_Supported_Vehicles_OFFROAD + IL_Supported_Vehicles_CHINOOK;
@@ -250,7 +250,7 @@ if (isnil "IL_Procedures") then
 			if ((isNil {_obj getVariable "can_outside"}) || (_force)) then {_obj setVariable["can_outside", IL_Can_Outside, true];};
 			if ((isNil {_obj getVariable "zload"}) || (_force)) then {_obj setVariable["zload", -4.57, true];};
 			if ((isNil {_obj getVariable "usable_ramp"}) || (_force)) then {_obj setVariable["usable_ramp", IL_Ramp, true];};
-			if (_obj_type == "C130J_Cargo") then
+			if (_obj_type in ["C130J_Cargo", "C130J","RHS_C130J","MV22"]) then
 			{
 				if ((isNil {_obj getVariable "slots_num"}) || (_force)) then {_obj setVariable["slots_num", IL_Num_Slots_C130J, true];};
 				if ((isNil {_obj getVariable "load_offset"}) || (_force)) then {_obj setVariable["load_offset", 8.5, true];};
@@ -290,7 +290,7 @@ if (isnil "IL_Procedures") then
 			if ((isNil {_obj getVariable "can_load"}) || (_force)) then {_obj setVariable["can_load", true, true];};
 			if ((isNil {_obj getVariable "can_copilot"}) || (_force)) then {_obj setVariable["can_copilot", IL_Can_CoPilot, true];};
 			if ((isNil {_obj getVariable "can_outside"}) || (_force)) then {_obj setVariable["can_outside", IL_Can_Outside, true];};
-			if (_obj_type == "CH_47F") then
+			if (_obj_type in ["CH-47F","RHS_CH_47F","RHS_CH_47F_light","RHS_CH_47F_10","CH_147F"]) then  
 			{
 				if ((isNil {_obj getVariable "slots_num"}) || (_force)) then {_obj setVariable["slots_num", IL_Num_Slots_CHINOOK - 2, true];};
 				if ((isNil {_obj getVariable "zload"}) || (_force)) then {_obj setVariable["zload", -3.1, true];};
@@ -1990,7 +1990,7 @@ if (_obj_main_type in IL_Supported_Vehicles_CHINOOK) then
 		"((driver _target == _this) || (('Turret' in (assignedVehicleRole _this)) && (vehicle _this == _target) && (_target getVariable 'can_copilot')) || ((_this in (nearestObjects[ _target modelToWorld [0,-9,-3], [], IL_SDistL + IL_SDistL_Heli_offset])) && (_target getVariable 'can_outside'))) && (_target animationPhase 'ani_ramp' == 1) && (_target getVariable 'can_load')"
 		];
 	};
-	if (typeOf _obj_main == "CH_47F") then
+	if (typeOf _obj_main in ["CH-47F","RHS_CH_47F","RHS_CH_47F_light","RHS_CH_47F_10","CH_147F"]) then
 	{
 		_obj_main addAction [
 		"<img image='scripts\IgiLoad\images\load.paa' /><t color=""#007f0e"">  Load cargo on Chinook</t>",
@@ -2240,7 +2240,7 @@ if (_obj_main_type in IL_Supported_Vehicles_C130J) then
 	_vsupported = true;
 	[_obj_main] call IL_Init_Veh;
 	
-	if (_obj_main_type == "C130J") then
+	if (_obj_main_type in ["C130J_Cargo", "C130J","RHS_C130J","MV22"]) then
 	{
 		_obj_main addAction [
 		"<t color=""#ff0000"">Get out on the side of ramp</t>",
