@@ -103,7 +103,7 @@ class Mission
 	randomSeed=13763187;
 	class Intel
 	{
-		briefingName="DCG for ITGC";
+		briefingName="DCG for ITGC v1.10";
 		resistanceWest=0;
 		startWeather=0.29999998;
 		startWind=0.099999994;
@@ -1576,7 +1576,7 @@ class Mission
 						items=7;
 						class Item0
 						{
-							value="1";
+							value="0";
 							parentCls="tfar_ModuleTaskForceRadioEnforceUsage";
 							typeName="TeamLeaderRadio";
 						};
