@@ -1,4 +1,5 @@
 //Init stuff
+if (isDedicated) exitWith {};
 _crate = _this select 0;
 _unitrole = typeof player;
 
@@ -578,6 +579,7 @@ _availableItems = [
 		"optic_MRD",
 		"optic_NVS",
 		"optic_Yorris",
+		"optic_DMS",
 		"Rangefinder",
 		"ToolKit",
 		"Zasleh2",
@@ -1359,7 +1361,6 @@ switch (_unitrole) do {
 		"optic_AMS",
 		"optic_AMS_khk",
 		"optic_AMS_snd",
-		"optic_DMS",
 		"optic_SOS"
 	];
 		
