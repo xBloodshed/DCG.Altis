@@ -13,5 +13,5 @@ Crewman [Combat]- rhsusf_army_ucp_combatcrewman
 Crew - rhsusf_army_ucp_crewman
 Pilot - rhsusf_airforce_pilot
 Helicopter Pilot - rhsusf_army_ucp_helipilot
-
+Sniper- rhsusf_army_ucp_sniper
 Weapons for US Army 

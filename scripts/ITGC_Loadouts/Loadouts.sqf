@@ -87,6 +87,12 @@ switch (_unitrole) do {
   {
 	[] execVM "scripts\ITGC_Loadouts\lo_helipilot.sqf";
   };
+  
+  //Sniper
+  case "rhsusf_army_ucp_sniper":
+  {
+    [] execVM "scripts\ITGC_Loadouts\lo_sniper.sqf";
+  };
 };
 
 
