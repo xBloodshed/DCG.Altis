@@ -1,5 +1,11 @@
 # DCG.Altis | Changelog
 
+16 Sept 2015: TandelK
+---
+
+1. Added Restore Gear after respawn script
+2. Added JIP Wait script for checking if player is connected properly or not
+
 15 Sept 2015 : xBloodshed
 ---
 1. fixed Arsenal cleanup bug
