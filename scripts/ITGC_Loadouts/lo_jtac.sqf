@@ -21,18 +21,6 @@ player addItemToUniform "ACE_RangeCard";
 player addVest "rhsusf_iotv_ucp_Medic";
 for "_i" from 1 to 3 do {player addItemToVest "HandGrenade";};
 for "_i" from 1 to 11 do {player addItemToVest "rhs_mag_30Rnd_556x45_Mk262_Stanag";};
-player addBackpack "B_Carryall_mcamo";
-for "_i" from 1 to 8 do {player addItemToBackpack "ACE_bloodIV_500";};
-for "_i" from 1 to 2 do {player addItemToBackpack "ACE_salineIV_500";};
-for "_i" from 1 to 45 do {player addItemToBackpack "ACE_packingBandage";};
-for "_i" from 1 to 15 do {player addItemToBackpack "ACE_morphine";};
-for "_i" from 1 to 20 do {player addItemToBackpack "ACE_epinephrine";};
-for "_i" from 1 to 2 do {player addItemToBackpack "ACE_atropine";};
-for "_i" from 1 to 4 do {player addItemToBackpack "ACE_personalAidKit";};
-for "_i" from 1 to 44 do {player addItemToBackpack "ACE_elasticBandage";};
-for "_i" from 1 to 10 do {player addItemToBackpack "SmokeShell";};
-player addItemToBackpack "SmokeShellBlue";
-for "_i" from 1 to 7 do {player addItemToBackpack "rhs_mag_30Rnd_556x45_Mk262_Stanag";};
 player addHeadgear "rhsusf_ach_helmet_headset_ucp";
 player addGoggles "rhs_googles_clear";
 

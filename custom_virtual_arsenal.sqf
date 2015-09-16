@@ -1,6 +1,6 @@
 //Init stuff
 if (isDedicated) exitWith {};
-_crate = _this select 0;
+_crate = SEN_Arsenal;
 _unitrole = typeof player;
 
 _availableMagazines = [

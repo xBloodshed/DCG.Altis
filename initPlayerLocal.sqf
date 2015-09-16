@@ -7,6 +7,9 @@ __________________________________________________________________*/
 
 if (!hasInterface) exitWith {}; // headless client exit
 
+[] execVM "scripts\ITGC_Loadouts\Loadouts.sqf";
+[] execVM "custom_virtual_arsenal.sqf";
+
 private "_prefix";
 
 // workaround for acre, if inventory full and can't add radio, acre throws rpt error: (Warning: Radio ID ACRE_PRC343_ID_1 was returned for a non-existent baseclass...)
@@ -107,3 +110,5 @@ call {
 	if (SEN_acreEnabled) exitWith {execVM "scripts\SEN_acre2.sqf";};
 	if (SEN_tfrEnabled) exitWith {execVM "scripts\SEN_tfr.sqf";};
 };
+
+[] execVM "scripts\pilot_restriction.sqf";
