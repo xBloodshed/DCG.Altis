@@ -27,3 +27,9 @@
 2.	Added folder class names for dev purposes. Delete it later. Contains all weapons & optics, mags, items (ACE3, RHS, vanilla) in the required format for CVA.
 
 3.	Pilot restrictions imposed. Both the pilot classes (Heli & Jet) can fly both types. Other roles are kicked out.
+
+16 Sept 2015: TandelK
+-------------
+
+1. Added Respawn Gear script 
+

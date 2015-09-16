@@ -24,6 +24,7 @@ enableSaving [false, false];
 enableSentences false;
 enableRadio false;
 enableEngineArtillery false;
+PWNR_gearSpawn	= 1; //1- enable Save Gear 0- Disable Save  
 tf_no_auto_long_range_radio = true;
 
 call SEN_fnc_setParams;
@@ -38,3 +39,6 @@ if (isServer || (!isServer && !hasInterface)) then {
 [] execVM "scripts\pilot_restriction.sqf";
 SEN_Arsenal addaction ["Arsenal", "custom_virtual_arsenal.sqf"];
 [] execVM "scripts\ITGC_Loadouts\Loadouts.sqf";
+
+[] execVM "scripts\gearSpawn.sqf";
+
