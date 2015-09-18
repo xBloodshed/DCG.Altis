@@ -40,6 +40,7 @@ taskManagement_drawDist = 2000; //3D marker draw distance as UNASSIGNED (default
 #include "scripts\VVS\menu.h"
 #include "data\SEN_ace_settings.hpp"
 #include "data\SEN_XEH.hpp"
+#include "taw_vd\dialog.hpp"
 
 class Params {
 	#include "data\SEN_params.hpp"
@@ -47,6 +48,7 @@ class Params {
 class CfgFunctions {
 	#include "scripts\VVS\Functions.h"
 	#include "data\SEN_cfgFunctions.hpp"
+	#include "taw_vd\CfgFunctions.hpp"
 };
 class RscTitles {
 	#include "scripts\VehicleHud\hud_titles.sqf"
