@@ -535,6 +535,9 @@ _availableItems = [
 		"ACE_NVG_Gen4",
 		"ACE_NVG_Wide",
 		"ACE_Vector",
+		"ACE_Flashlight_MX991",
+		"ACE_Flashlight_KSF1",
+		"ACE_Flashlight_XL50",
 		"ItemWatch",
 		"acc_flashlight",
 		"acc_pointer_IR",
@@ -725,7 +728,11 @@ switch (_unitrole) do {
 		"hgun_Pistol_heavy_01_MRD_F",
 		"hgun_Pistol_heavy_01_snds_F",
 		"hgun_Rook40_F",
-		"hgun_Rook40_snds_F"
+		"hgun_Rook40_snds_F",
+		"rhs_weap_tr8",
+		"rhs_weap_rsp30_green",
+		"rhs_weap_rsp30_red",
+		"rhs_weap_rsp30_white"
 	];
 	
 	_availableBackpacks = [
@@ -875,7 +882,11 @@ switch (_unitrole) do {
 		"hgun_Pistol_heavy_01_MRD_F",
 		"hgun_Pistol_heavy_01_snds_F",
 		"hgun_Rook40_F",
-		"hgun_Rook40_snds_F"
+		"hgun_Rook40_snds_F",
+		"rhs_weap_tr8",
+		"rhs_weap_rsp30_green",
+		"rhs_weap_rsp30_red",
+		"rhs_weap_rsp30_white"
 	];
 	
 	_availableBackpacks = [
@@ -1011,7 +1022,11 @@ switch (_unitrole) do {
 		"hgun_Pistol_heavy_01_MRD_F",
 		"hgun_Pistol_heavy_01_snds_F",
 		"hgun_Rook40_F",
-		"hgun_Rook40_snds_F"
+		"hgun_Rook40_snds_F",
+		"rhs_weap_tr8",
+		"rhs_weap_rsp30_green",
+		"rhs_weap_rsp30_red",
+		"rhs_weap_rsp30_white"
 	];
 	
 	_availableBackpacks = [
@@ -1147,7 +1162,11 @@ switch (_unitrole) do {
 		"hgun_Pistol_heavy_01_MRD_F",
 		"hgun_Pistol_heavy_01_snds_F",
 		"hgun_Rook40_F",
-		"hgun_Rook40_snds_F"
+		"hgun_Rook40_snds_F",
+		"rhs_weap_tr8",
+		"rhs_weap_rsp30_green",
+		"rhs_weap_rsp30_red",
+		"rhs_weap_rsp30_white"
 	];
 	
 	_availableBackpacks = [
@@ -1305,7 +1324,11 @@ switch (_unitrole) do {
 		"hgun_Pistol_heavy_01_MRD_F",
 		"hgun_Pistol_heavy_01_snds_F",
 		"hgun_Rook40_F",
-		"hgun_Rook40_snds_F"
+		"hgun_Rook40_snds_F",
+		"rhs_weap_tr8",
+		"rhs_weap_rsp30_green",
+		"rhs_weap_rsp30_red",
+		"rhs_weap_rsp30_white"
 	];
 	
 	_availableBackpacks = [
@@ -1343,7 +1366,20 @@ switch (_unitrole) do {
 		"srifle_EBR_Hamr_pointer_F",
 		"srifle_EBR_MRCO_LP_BI_F",
 		"srifle_EBR_MRCO_pointer_F",
-		"srifle_EBR_SOS_F"
+		"srifle_EBR_SOS_F",
+		"hgun_ACPC2_F",
+		"hgun_ACPC2_snds_F",
+		"hgun_P07_F",
+		"hgun_P07_snds_F",
+		"hgun_Pistol_heavy_01_F",
+		"hgun_Pistol_heavy_01_MRD_F",
+		"hgun_Pistol_heavy_01_snds_F",
+		"hgun_Rook40_F",
+		"hgun_Rook40_snds_F",
+		"rhs_weap_tr8",
+		"rhs_weap_rsp30_green",
+		"rhs_weap_rsp30_red",
+		"rhs_weap_rsp30_white"
 	];
 	
 	_availableBackpacks = [
@@ -1496,7 +1532,11 @@ switch (_unitrole) do {
 		"launch_Titan_short_F",
 		"rhs_weap_M136",
 		"rhs_weap_M136_hedp",
-		"rhs_weap_M136_hp"
+		"rhs_weap_M136_hp",
+		"rhs_weap_tr8",
+		"rhs_weap_rsp30_green",
+		"rhs_weap_rsp30_red",
+		"rhs_weap_rsp30_white"
 	];
 	
 	_availableBackpacks = [
@@ -1528,7 +1568,20 @@ switch (_unitrole) do {
 		"rhs_weap_m240b_usmc",
 		"rhs_weap_m249_pip",
 		"rhs_weap_m249_pip_elcn",
-		"rhs_weap_m249_pip_usmc"
+		"rhs_weap_m249_pip_usmc",
+		"hgun_ACPC2_F",
+		"hgun_ACPC2_snds_F",
+		"hgun_P07_F",
+		"hgun_P07_snds_F",
+		"hgun_Pistol_heavy_01_F",
+		"hgun_Pistol_heavy_01_MRD_F",
+		"hgun_Pistol_heavy_01_snds_F",
+		"hgun_Rook40_F",
+		"hgun_Rook40_snds_F",
+		"rhs_weap_tr8",
+		"rhs_weap_rsp30_green",
+		"rhs_weap_rsp30_red",
+		"rhs_weap_rsp30_white"
 	];
 	
 	_availableBackpacks = [
@@ -1686,7 +1739,11 @@ switch (_unitrole) do {
 		"hgun_Pistol_heavy_01_MRD_F",
 		"hgun_Pistol_heavy_01_snds_F",
 		"hgun_Rook40_F",
-		"hgun_Rook40_snds_F"
+		"hgun_Rook40_snds_F",
+		"rhs_weap_tr8",
+		"rhs_weap_rsp30_green",
+		"rhs_weap_rsp30_red",
+		"rhs_weap_rsp30_white"
 	];
 	
 	_availableBackpacks = [
@@ -1822,7 +1879,11 @@ switch (_unitrole) do {
 		"hgun_Pistol_heavy_01_MRD_F",
 		"hgun_Pistol_heavy_01_snds_F",
 		"hgun_Rook40_F",
-		"hgun_Rook40_snds_F"
+		"hgun_Rook40_snds_F",
+		"rhs_weap_tr8",
+		"rhs_weap_rsp30_green",
+		"rhs_weap_rsp30_red",
+		"rhs_weap_rsp30_white"
 	];
 	
 	_availableBackpacks = [
@@ -1958,7 +2019,11 @@ switch (_unitrole) do {
 		"hgun_Pistol_heavy_01_MRD_F",
 		"hgun_Pistol_heavy_01_snds_F",
 		"hgun_Rook40_F",
-		"hgun_Rook40_snds_F"
+		"hgun_Rook40_snds_F",
+		"rhs_weap_tr8",
+		"rhs_weap_rsp30_green",
+		"rhs_weap_rsp30_red",
+		"rhs_weap_rsp30_white"
 	];
 	
 	_availableBackpacks = [
@@ -2094,7 +2159,11 @@ switch (_unitrole) do {
 		"hgun_Pistol_heavy_01_MRD_F",
 		"hgun_Pistol_heavy_01_snds_F",
 		"hgun_Rook40_F",
-		"hgun_Rook40_snds_F"
+		"hgun_Rook40_snds_F",
+		"rhs_weap_tr8",
+		"rhs_weap_rsp30_green",
+		"rhs_weap_rsp30_red",
+		"rhs_weap_rsp30_white"
 	];
 	
 	_availableBackpacks = [
@@ -2118,7 +2187,20 @@ switch (_unitrole) do {
 	_availableWeapons = [
 		"rhs_weap_m4a1",
 		"rhs_weap_m4a1_bipod",
-		"rhsusf_acc_ACOG"
+		"rhsusf_acc_ACOG",
+		"hgun_ACPC2_F",
+		"hgun_ACPC2_snds_F",
+		"hgun_P07_F",
+		"hgun_P07_snds_F",
+		"hgun_Pistol_heavy_01_F",
+		"hgun_Pistol_heavy_01_MRD_F",
+		"hgun_Pistol_heavy_01_snds_F",
+		"hgun_Rook40_F",
+		"hgun_Rook40_snds_F",
+		"rhs_weap_tr8",
+		"rhs_weap_rsp30_green",
+		"rhs_weap_rsp30_red",
+		"rhs_weap_rsp30_white"
 	];
 	
 	_availableBackpacks = [
@@ -2254,7 +2336,11 @@ switch (_unitrole) do {
 		"hgun_Pistol_heavy_01_MRD_F",
 		"hgun_Pistol_heavy_01_snds_F",
 		"hgun_Rook40_F",
-		"hgun_Rook40_snds_F"
+		"hgun_Rook40_snds_F",
+		"rhs_weap_tr8",
+		"rhs_weap_rsp30_green",
+		"rhs_weap_rsp30_red",
+		"rhs_weap_rsp30_white"
 	];
 	
 	_availableBackpacks = [

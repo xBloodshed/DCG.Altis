@@ -34,6 +34,7 @@ _vehicle addItemCargoGlobal ["HandGrenade", 10];
 _vehicle addItemCargoGlobal ["SmokeShell", 10];
 _vehicle addItemCargoGlobal ["Titan_AT", 3];
 _vehicle addItemCargoGlobal ["Titan_AA", 3];
+_vehicle addItemCargoGlobal ["16Rnd_9x21_Mag", 5];
 _vehicle addItemCargoGlobal ["11Rnd_45ACP_Mag", 5];
 _vehicle addItemCargoGlobal ["ACE_packingBandage", 50];
 _vehicle addItemCargoGlobal ["ACE_elasticBandage", 50];
