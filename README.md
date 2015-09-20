@@ -1,4 +1,9 @@
 # DCG.Altis | Changelog
+20-9-2015 : TandelK
+---
+
+1. Added TAW View Distance Script to the mission file .
+
 
 16 Sept 2015: TandelK
 ---
